@@ -15,7 +15,5 @@ int main(void)
 
 int imin(int a, int b)
 {
-    int min;
-    min = (a <= b) ? a : b;
-    return min;
+    return (a <= b) ? a : b;
 }

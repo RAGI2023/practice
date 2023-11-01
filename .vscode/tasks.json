@@ -8,7 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
- //              "${fileDirname}\\hotel.c",
+//               "${fileDirname}\\diceroll.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 ""

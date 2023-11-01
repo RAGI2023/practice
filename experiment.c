@@ -1,4 +1,5 @@
 #include<stdio.h>
+int ding(void);
 int main(void)
 {
     char str1[] = {"abc"};
@@ -40,6 +41,12 @@ int main(void)
         printf("%d ", num[i]);
         i++;
     }
-    printf("%d", num[5]);
+    printf("%d\n", num[5]);
+    printf("%d", ding());
     return 0;
+}
+int ding(void)
+{
+    static int a =3;
+    return a;
 }

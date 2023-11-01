@@ -8,6 +8,7 @@ int main(void)
 {
     starbar();
     printf("%s\n", NAME);
+    //书签！
     printf("%s", ADDRESS);
     printf("%s\n", PLACE);
     starbar();
